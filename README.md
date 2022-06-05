@@ -1,3 +1,12 @@
+#Descripción:
+
+Pequeño proyecto para practicar llamadas a una api, nivel muy básico.
+Consulta API de Giphy para obtener GIFS
+A fin de practicar las promesas y async, lleva un método TimeOut() lo que relentiza  unos segundos la carga.
+No se le ha dado diseño ni estilo
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
