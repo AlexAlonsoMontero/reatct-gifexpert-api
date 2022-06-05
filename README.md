@@ -1,4 +1,4 @@
-#Descripción:
+# Descripción:
 
 Pequeño proyecto para practicar llamadas a una api, nivel muy básico.
 Consulta API de Giphy para obtener GIFS
