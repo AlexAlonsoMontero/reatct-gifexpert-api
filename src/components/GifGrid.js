@@ -1,26 +1,26 @@
-import React  from 'react'
+import React from 'react'
 import { useFetchGifs } from '../hooks/useFetchGifs'
 import GifGridItem from './GifGridItem';
 
 const GifGrid = ({ category }) => {
-    const {data:images, loading} = useFetchGifs( category );
+    const { data: images, loading } = useFetchGifs(category);
     return (
         <>
             <h3>{category}</h3>
-            {!loading && 
-                
+            {!loading &&
+
                 <div className='card-grid'>
                     {
                         images.map(img => (
                             <GifGridItem
                                 key={img.id}
                                 {...img} />
-                            
+
                         ))
                     }
                 </div>
             }
-            { loading &&
+            {loading &&
                 <p>Cargando ...</p>
             }
         </>
