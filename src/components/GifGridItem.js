@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
+function GifGridItem({title, url}) {
 
-function GifGridItem({id, title, url}) {
   return (
-    <div className='card animate__animated animate__bounce'>
+    <div className='card animate__animated animate__bounce' data-testid="div-class-name">
         <img src={ url } alt={title} />
         <p>{ title }</p>
        
@@ -11,3 +12,8 @@ function GifGridItem({id, title, url}) {
 }
 
 export default GifGridItem
+
+GifGridItem.propTypes ={
+  title: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired
+}

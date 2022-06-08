@@ -9,7 +9,7 @@ body {
 input {
     color: black;
     font-size: 1.2 rem;
-    width: 100%;
+    width: 85%;
 }
 
 .card-grid {
@@ -34,4 +34,14 @@ input {
 
 .card img {
     max-height: 170px;
+}
+
+button{
+    margin: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-weight: bold;
+    height: 1.7em;
 }
