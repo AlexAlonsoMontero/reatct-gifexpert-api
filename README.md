@@ -5,7 +5,7 @@ Consulta API de Giphy para obtener GIFS
 A fin de practicar las promesas y async, lleva un método TimeOut() lo que relentiza  unos segundos la carga.
 No se le ha dado diseño ni estilo
 
-
+* Uso de testing library para testeo de componentes
 
 # Getting Started with Create React App
 
