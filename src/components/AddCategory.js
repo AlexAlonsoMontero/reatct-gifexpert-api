@@ -2,7 +2,8 @@ import React from 'react'
 import { useState } from 'react'
 import PropTypes from 'prop-types';
 
-const AddCategory = ({ setCategories }) => {
+const AddCategory = ({ currentCategories, onNewCategory }) => {
+    console.log(currentCategories);
     const [inputValue, setInputValue] = useState('');
 
     const handleInputChange = (e) => {
@@ -12,7 +13,8 @@ const AddCategory = ({ setCategories }) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (inputValue && inputValue.trim().length > 2) {
-            setCategories(cat => [inputValue,...cat ]);
+            // setCategories(cat => [inputValue,...cat ]);
+            onNewCategory(inputValue)
             setInputValue('')
             
 
