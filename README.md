@@ -1,6 +1,6 @@
 # Descripción:
 
-Pequeño proyecto para practicar llamadas a una api, nivel muy básico.
+Pequeño proyecto para practicar llamadas a una api, nivel básico.
 Consulta API de Giphy para obtener GIFS
 A fin de practicar las promesas y async, lleva un método TimeOut() lo que relentiza  unos segundos la carga.
 No se le ha dado diseño ni estilo
